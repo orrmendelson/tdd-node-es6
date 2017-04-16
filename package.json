@@ -1,0 +1,24 @@
+{
+    "name": "nodetestes6",
+    "version": "1.0.0",
+    "description": "NodeJS with Chai, Mocha, Istanbul and ES6",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "example": "node index.js",
+        "example2": "node index.js Hey world!",
+        "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+        "tdd:mac": "./node_modules/.bin/mocha -w"
+    },
+    "author": "OrrM",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "istanbul": "^0.4.4",
+        "mocha": "^3.0.2",
+        "sinon": "^1.17.5",
+        "sinon-chai": "^2.8.0"
+    },
+    "license": "ISC"
+}
