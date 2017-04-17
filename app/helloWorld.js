@@ -17,10 +17,6 @@ class HelloWorld {
             this.logger.log(this.greeting);
         }
     }
-
-    multiple(a, b) {
-      return(a*b);
-    }
 }
 
 module.exports = HelloWorld;

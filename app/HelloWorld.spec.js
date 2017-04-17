@@ -59,4 +59,4 @@ describe('HelloWorld', () => {
             stub.restore();
         });
     });
-});
+})

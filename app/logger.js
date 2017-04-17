@@ -3,7 +3,7 @@
 class Logger {
 
     log(message) {
-        console.log(message);
+        console.log(`Logger: ${message}`);
     }
 }
 
